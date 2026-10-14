@@ -70,9 +70,6 @@ html, body, [class*="css"], .stMarkdown, .stTextInput, .stTextArea, button { fon
 # ---------- HERO (st.title includes Name + ID) ----------
 st.markdown('<span class="tag2">CS4106 · Generative AI</span>', unsafe_allow_html=True)
 st.title("Sentiment Analyzer — Talha Siddiq (B04-0923-000038)")
-st.markdown("""<div class="hero"><p>Detect whether text is positive or negative using a fine-tuned DistilBERT transformer.</p>
-<div class="chips"><span class="chip">🤗 Hugging Face</span><span class="chip">⚡ Streamlit</span>
-<span class="chip">🧠 DistilBERT · SST-2</span></div></div>""", unsafe_allow_html=True)
 
 # ---------- MODEL ----------
 @st.cache_resource(show_spinner="Loading model…")
